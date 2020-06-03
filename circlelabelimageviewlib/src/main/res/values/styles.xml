@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleLabelImageView">
+        <attr name="cliv_textColor" format="color" />
+        <attr name="cliv_text" format="string" />
+        <attr name="cliv_textSize" format="dimension" />
+        <attr name="cliv_textBGColor" format="color" />
+        <attr name="cliv_textBGPaddingVertical" format="dimension" />
+    </declare-styleable>
+</resources>
