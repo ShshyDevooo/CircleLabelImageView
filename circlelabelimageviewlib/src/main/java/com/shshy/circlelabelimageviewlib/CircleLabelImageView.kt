@@ -79,6 +79,11 @@ class CircleLabelImageView : AppCompatImageView {
         canvas?.restore()
     }
 
+    fun setText(text:String){
+        this.text = text
+        postInvalidate()
+    }
+
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
         circleRadius = Math.min(width, height) / 2f
         viewRect.set(width / 2f - circleRadius, height / 2f - circleRadius, width / 2f + circleRadius, height / 2f + circleRadius)
